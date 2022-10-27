@@ -1,6 +1,9 @@
 {
   "name": "pusher-slide-hacktoberfest",
+  "description": "An interactive slider app using React and Pusher",
   "version": "0.1.0",
+  "author": "Rafael Romero",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
