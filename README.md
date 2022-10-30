@@ -1,5 +1,7 @@
 ## Cache Slides with Pusher
 
+![image](https://user-images.githubusercontent.com/36615882/198904511-f3a30d61-c9ad-4bd2-9b57-6cb30a627950.png)
+
 ### Description
 
 This is a simple project (emphasis on simple) to show a realtime slideshow! with the power of [Cache Channels](https://blog.pusher.com/introducing-cache-channels/) people can hop on the presentation and see the actual slide presented on realtime.
@@ -26,9 +28,9 @@ git clone https://github.com/Rafajrg21/pusher-slides.git
 
 ```bash
 # .env
-    PUSHER_APP_ID=<YOUR_APP_ID>
-    PUSHER_KEY=<YOUR_KEY>
-    PUSHER_SECRET=<YOUR_SECRET>
+PUSHER_APP_ID=<YOUR_APP_ID>
+PUSHER_KEY=<YOUR_KEY>
+PUSHER_SECRET=<YOUR_SECRET>
 ```
 
 3. Change directory and install dependencies on both client and server folders:
