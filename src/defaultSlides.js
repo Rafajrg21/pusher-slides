@@ -1,4 +1,4 @@
-export default [
+const slides = [
     {
         title: 'First slide',
         subtitle: 'is it working?',
@@ -15,3 +15,5 @@ export default [
         image: "https://picsum.photos/350"
     },
 ]
+
+export default slides

@@ -35,3 +35,32 @@
   object-fit: contain;
   z-index: -1;
 }
+
+.left-arrow, 
+.right-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border-style: solid;
+  z-index: 1;
+}
+
+.left-arrow:hover, 
+.right-arrow:hover {
+  cursor: pointer;
+}
+
+.left-arrow {
+  top: 45%;
+  left: 10%;
+  border-width: 25px 40px 25px 0;
+  border-color: transparent #ccd7e3 transparent transparent;
+}
+
+.right-arrow {
+  top: 45%;
+  right: 10%;
+  border-width: 25px 0 25px 40px;
+  border-color: transparent transparent transparent #ccd7e3;
+}
