@@ -10,7 +10,7 @@ const Slider = ({ slides }) => {
         return null;
     }
 
-    const pusher = new Pusher(process.env.PUSHER_SECRET, {
+    const pusher = new Pusher(process.env.REACT_APP_PUSHER_SECRET, {
         cluster: 'us2'
     });
     const channel = pusher.subscribe('cache-slides');
